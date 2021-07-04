@@ -170,7 +170,43 @@ libssl
 
 ## 路线计划
 
-TODO
+版本规划暂定如下:
+
++ `0.1.0` 实验性质, 最初演示
+
++ `0.2.0` 基本命令行
+
+  `bu-kernel` `bu-fs` `bu-linux` `bu-musl`
+  `busybox` `bash` `nano`
+
++ `0.3.0` 接近自举
+
+  `llvm` `clang` `make` `cmake` `git`
+
++ `0.4.0` 支持 node
+
+  `bu-v8` `bu-node`
+
++ `0.5.0` 基本网络功能
+
+  `bu-gvisor` `bu-http` `bu-net`
+  `curl` `wget`
+
++ `0.6.0` 支持 code-server
+
+  `bu-swb`
+
++ `0.7.0` 基本自举
+
+  `rust` `cargo` `gcc` `python` `meson` `apk`
+
++ `0.8.0` 交叉编译
+
+  `bu-cross` `firefox`
+
++ `0.9.0` Android 开发
+
+  `bu-android-sdk`
 
 
 ## 相关代码仓库
